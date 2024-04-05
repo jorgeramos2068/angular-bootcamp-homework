@@ -1,0 +1,45 @@
+<h2>Exercise 02: Structural Directives</h2>
+
+<div class="row mb-4 mt-4">
+  <div class="col-12 mb-2">
+    <h3>ngFor</h3>
+    <div class="col-12 mb-2">
+      <ul class="list-group">
+        <li class="list-group-item" *ngFor="let item of items">{{ item }}</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<hr />
+<div class="row mb-4 mt-4">
+  <div class="col-12 mb-2">
+    <h3>ngIf</h3>
+    <div class="col-12 mb-2">
+      <ul class="list-group">
+        <ng-container *ngFor="let item of items">
+          <li class="list-group-item" *ngIf="item !== 'B'">{{ item }}</li>
+        </ng-container>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<hr />
+<div class="row mb-4 mt-4">
+  <div class="col-12 mb-2">
+    <h3>ngSwitch</h3>
+    <div class="col-12 mb-2">
+      <ul class="list-group">
+        <ng-container *ngFor="let item of items">
+          <ng-container [ngSwitch]="item">
+            <li class="list-group-item" *ngSwitchCase="'A'">1</li>
+            <li class="list-group-item" *ngSwitchCase="'B'">2</li>
+            <li class="list-group-item" *ngSwitchCase="'C'">3</li>
+            <li class="list-group-item" *ngSwitchDefault>-1</li>
+          </ng-container>
+        </ng-container>
+      </ul>
+    </div>
+  </div>
+</div>
