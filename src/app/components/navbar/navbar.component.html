@@ -24,6 +24,36 @@
             Home
           </a>
         </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLink="/simple-route"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            Simple route
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLink="/lazy-loading"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            Lazy loading home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLink="/lazy-loading/lazy-with-params/test"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            Lazy loading with params
+          </a>
+        </li>
       </ul>
     </div>
   </div>
