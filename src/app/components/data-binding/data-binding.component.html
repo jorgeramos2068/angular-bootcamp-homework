@@ -1,0 +1,33 @@
+<h2>Exercise 04</h2>
+
+<div class="row mb-4 mt-4">
+  <div class="col-12 mb-2">
+    <h3>Event binding</h3>
+    <div class="mb-2">
+      <button type="button" class="btn btn-primary" (click)="openAlert()">
+        Click me
+      </button>
+    </div>
+  </div>
+</div>
+
+<hr />
+<div class="row mb-4 mt-4">
+  <div class="col-12 mb-2">
+    <h3>One-way data binding</h3>
+    <div class="mb-2">
+      <input class="form-control" type="text" [value]="text1" />
+    </div>
+  </div>
+</div>
+
+<hr />
+<div class="row mb-4 mt-4">
+  <div class="col-12 mb-2">
+    <h3>Two-way data binding</h3>
+    <p>{{ text2 }}</p>
+    <div class="mb-2">
+      <input class="form-control" type="text" [(ngModel)]="text2" />
+    </div>
+  </div>
+</div>
