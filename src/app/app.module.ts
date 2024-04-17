@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { Exercise04Component } from './components/exercise-04/exercise-04.component';
+import { DataBindingComponent } from './components/data-binding/data-binding.component';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
@@ -13,7 +13,7 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     HomepageComponent,
     NavbarComponent,
-    Exercise04Component,
+    DataBindingComponent,
   ],
   imports: [BrowserModule, FormsModule, AppRoutingModule],
   providers: [],

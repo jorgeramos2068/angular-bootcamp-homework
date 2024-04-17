@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-exercise-04',
-  templateUrl: './exercise-04.component.html',
+  selector: 'app-data-binding',
+  templateUrl: './data-binding.component.html',
 })
-export class Exercise04Component {
+export class DataBindingComponent {
   protected text1: string = 'Hello World!';
   protected text2: string = 'Hello World!';
 
