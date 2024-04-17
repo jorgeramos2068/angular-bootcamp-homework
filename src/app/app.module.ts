@@ -5,14 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { Exercise01Component } from './components/exercise-01/exercise-01.component';
+import { AttributeDirectivesComponent } from './components/attribute-directives/attribute-directives.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
     NavbarComponent,
-    Exercise01Component,
+    AttributeDirectivesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

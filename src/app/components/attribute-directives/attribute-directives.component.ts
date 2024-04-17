@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-exercise-01',
-  templateUrl: './exercise-01.component.html',
+  selector: 'app-attribute-directives',
+  templateUrl: './attribute-directives.component.html',
   styles: `
     .redText {
       color: red;
     }
   `,
 })
-export class Exercise01Component {
+export class AttributeDirectivesComponent {
   protected active: boolean = false;
   protected activeStyle: boolean = false;
 
