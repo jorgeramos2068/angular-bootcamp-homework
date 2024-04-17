@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { HomepageComponent } from './components/homepage/homepage.component';
-import { Exercise07Component } from './components/exercise-07/exercise-07.component';
+import { PipesExerciseComponent } from './components/pipes-exercise/pipes-exercise.component';
 
 const routes: Routes = [
   {
@@ -11,8 +11,8 @@ const routes: Routes = [
     pathMatch: 'full',
   },
   {
-    path: 'exercise-07',
-    component: Exercise07Component,
+    path: 'pipes-exercise',
+    component: PipesExerciseComponent,
     pathMatch: 'full',
   },
   {

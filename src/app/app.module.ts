@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { Exercise07Component } from './components/exercise-07/exercise-07.component';
+import { PipesExerciseComponent } from './components/pipes-exercise/pipes-exercise.component';
 import { CapitalizePipe } from './pipes/capitalize.pipe';
 
 @NgModule({
@@ -13,7 +13,7 @@ import { CapitalizePipe } from './pipes/capitalize.pipe';
     AppComponent,
     HomepageComponent,
     NavbarComponent,
-    Exercise07Component,
+    PipesExerciseComponent,
     CapitalizePipe,
   ],
   imports: [BrowserModule, AppRoutingModule],
