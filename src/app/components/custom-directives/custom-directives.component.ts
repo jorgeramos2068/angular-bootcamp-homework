@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-exercise-03',
-  templateUrl: './exercise-03.component.html',
+  selector: 'app-custom-directives',
+  templateUrl: './custom-directives.component.html',
 })
-export class Exercise03Component {
+export class CustomDirectivesComponent {
   protected lowercaseString: string = 'custom string in lowercase';
   protected uppercaseString: string = 'CUSTOM STRING IN UPPERCASE';
   protected otherString: string = 'Other String In Other Case';

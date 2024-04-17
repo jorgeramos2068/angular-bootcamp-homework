@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { Exercise03Component } from './components/exercise-03/exercise-03.component';
+import { CustomDirectivesComponent } from './components/custom-directives/custom-directives.component';
 import { CapitalizeDirective } from './directives/capitalize.directive';
 
 @NgModule({
@@ -13,7 +13,7 @@ import { CapitalizeDirective } from './directives/capitalize.directive';
     AppComponent,
     HomepageComponent,
     NavbarComponent,
-    Exercise03Component,
+    CustomDirectivesComponent,
     CapitalizeDirective,
   ],
   imports: [BrowserModule, AppRoutingModule],
