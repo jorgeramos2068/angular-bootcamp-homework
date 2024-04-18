@@ -5,9 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { SimpleRouteComponent } from './components/simple-route/simple-route.component';
 
 @NgModule({
-  declarations: [AppComponent, HomepageComponent, NavbarComponent],
+  declarations: [
+    AppComponent,
+    HomepageComponent,
+    NavbarComponent,
+    SimpleRouteComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
